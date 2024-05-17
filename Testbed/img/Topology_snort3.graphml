@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yEd 3.23.2-->
+  <key attr.name="Description" attr.type="string" for="graph" id="d0"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key for="graphml" id="d7" yfiles.type="resources"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+  <key for="edge" id="d10" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <data key="d0" xml:space="preserve"/>
+    <node id="n0">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="145.50922356522503" width="101.43512230056086" x="-2310.3676348866775" y="-1167.5915705453638"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="sides" modelPosition="s" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="170.7236328125" x="-34.64425525596971" xml:space="preserve" y="149.50922356522506">server1
+</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="90.62838822305048" y="75.47654241571831">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.5" labelRatioY="0.0" nodeRatioX="0.4328956881686261" nodeRatioY="0.03245107435398542" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="240.328125" x="-69.44650134971971" xml:space="preserve" y="223.87077178499953">130.10.0.1<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="-1.3877787807814457E-15" nodeRatioY="0.5" offsetX="0.0" offsetY="78.36154821977448" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="1"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="100.61767759892086" width="150.91467111051657" x="-1257.1095882294442" y="-844.4063519562361"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="sides" modelPosition="s" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="318.1357421875" x="-83.61053553849183" xml:space="preserve" y="104.61767759892086">loadbalancer1</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="240.328125" x="-44.70672694474206" xml:space="preserve" y="177.11139994112102">130.10.0.4<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="-7.771561172376096E-16" nodeRatioY="0.5" offsetX="0.0" offsetY="76.49372234220016" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="2"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="149.92324878351184" width="150.99944894254782" x="-572.636744688383" y="-869.0591375485316"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="sides" modelPosition="n" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="242.9892578125" x="-45.99490443497609" xml:space="preserve" y="-69.2548828125">forwarder1</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="240.328125" x="-51.78376926771432" xml:space="preserve" y="-136.39097802774256">33.33.33.2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.5" nodeRatioX="-0.047148723315520336" nodeRatioY="-0.5" offsetX="0.0" offsetY="-71.13609521524256" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="3"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="145.50922356522503" width="101.43512230056086" x="-2310.3676348866775" y="-866.8521249393882"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="sides" modelPosition="s" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="170.7236328125" x="-34.64425525596971" xml:space="preserve" y="149.50922356522506">server2
+</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="240.328125" x="-69.44650134971971" xml:space="preserve" y="235.53249896697014">130.10.0.2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="-1.3877787807814457E-15" nodeRatioY="0.5" offsetX="0.0" offsetY="90.02327540174508" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="1"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="145.50922356522503" width="101.43512230056086" x="-2310.3676348866775" y="-566.1126793334126"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="sides" modelPosition="s" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="170.7236328125" x="-34.64425525596971" xml:space="preserve" y="149.50922356522506">server3
+</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="240.328125" x="-69.44650134971971" xml:space="preserve" y="226.48598368930448">130.10.0.3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="-1.3877787807814457E-15" nodeRatioY="0.5" offsetX="0.0" offsetY="80.97676012407942" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="1"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n5">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="76.00121452978007" width="151.1387006515322" x="-1874.6507013978362" y="-832.0981204216657"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="73.56935032576621" y="80.0012145297801"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="4"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="149.92324878351184" width="150.99944894254782" x="111.92087668470936" y="-450.6526667118478"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="sides" modelPosition="e" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="101.314453125" x="154.99944894254782" xml:space="preserve" y="42.33418298550589">nat1</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="55.04337404907619" y="87.14343545713359">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="-0.12222793229675943" nodeRatioY="0.09459380836828124" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="295.943359375" x="154.99944894254782" xml:space="preserve" y="117.29580737726178">220.124.30.1<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0" nodeRatioX="0.5" nodeRatioY="0.5" offsetX="4.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="3"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n7">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="188.94925795053018" width="169.65066416222683" x="111.92087668470936" y="-917.9446174620441"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="sides" modelPosition="n" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="320.7724609375" x="-75.56089838763658" xml:space="preserve" y="-69.2548828125">trafficmonitor1</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="83.62180848011735" y="82.03598993513333">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.004694802716730395" nodeRatioY="-0.05524572656890114" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="240.328125" x="-35.33873041888663" xml:space="preserve" y="-137.97246319125884">33.33.33.3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.5" nodeRatioX="-1.1102230246251565E-16" nodeRatioY="-0.5" offsetX="0.0" offsetY="-72.71758037875884" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="5"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n8">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="406.9068394637359" width="668.1728311583777" x="-118.92238474536612" y="-22.386725128669923"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="337.642578125" x="165.26512651668884" xml:space="preserve" y="170.82597832561794">192.168.3.0/24</y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="6"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <edge id="e0" source="n0" target="n5">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="3.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n3" target="n5">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="3.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n4" target="n5">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="3.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e3" source="n5" target="n1">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="3.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e4" source="n2" target="n7">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="7.262977313792703" ty="29.37247533000334"/>
+          <y:LineStyle color="#000000" type="line" width="3.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e5" source="n8" target="n6">
+      <data key="d10">
+        <y:QuadCurveEdge straightness="0.1">
+          <y:Path sx="-35.123662252061195" sy="-16.77895995485494" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="3.0"/>
+          <y:Arrows source="none" target="none"/>
+        </y:QuadCurveEdge>
+      </data>
+    </edge>
+    <edge id="e6" source="n6" target="n7">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="3.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e7" source="n1" target="n2">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="3.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+  </graph>
+  <data key="d7">
+    <y:Resources>
+      <y:Resource id="1" xml:space="preserve">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --&gt;
+&lt;svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 42 60.2" style="enable-background:new 0 0 42 60.2;" xml:space="preserve"&gt;
+&lt;style type="text/css"&gt;
+	.st0{fill:#008998;stroke:#FFFFFF;stroke-width:0.8;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:0.8;}
+&lt;/style&gt;
+&lt;g&gt;
+	&lt;polyline class="st0" points="31.7,10.2 1,10.2 1,59.3 31.7,59.3 	"/&gt;
+	&lt;polygon class="st0" points="31.7,59.3 41.6,49.4 41.6,0.4 10.8,0.4 1,10.2 31.7,10.2 	"/&gt;
+	&lt;line class="st0" x1="31.7" y1="10.2" x2="41.6" y2="0.4"/&gt;
+	&lt;line class="st1" x1="1.5" y1="29.3" x2="31.5" y2="29.3"/&gt;
+	&lt;line class="st1" x1="1.5" y1="51.8" x2="31.5" y2="51.8"/&gt;
+	&lt;line class="st1" x1="8.5" y1="17.8" x2="17.2" y2="17.8"/&gt;
+	&lt;g&gt;
+		&lt;rect x="5" y="14.6" class="st1" width="15.5" height="6.3"/&gt;
+	&lt;/g&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="2" xml:space="preserve">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --&gt;
+&lt;svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 76.6 51" style="enable-background:new 0 0 76.6 51;" xml:space="preserve"&gt;
+&lt;style type="text/css"&gt;
+	.st0{fill:#008998;stroke:#FFFFFF;stroke-width:0.8;}
+	.st1{fill:#FFFFFF;}
+&lt;/style&gt;
+&lt;g&gt;
+	&lt;rect x="1.1" y="10.8" class="st0" width="66.6" height="38.9"/&gt;
+	&lt;polygon class="st0" points="75.7,38 67.8,49.7 67.8,10.8 75.7,1.1 	"/&gt;
+	&lt;polygon class="st0" points="13.1,1.1 75.7,1.1 67.8,10.8 1.1,10.8 	"/&gt;
+	&lt;g&gt;
+		&lt;polygon class="st1" points="24.1,31.1 9.8,31.1 9.8,28.8 24.1,28.8 24.1,25.3 32.4,30 24.1,34.7 		"/&gt;
+	&lt;/g&gt;
+	&lt;g&gt;
+		&lt;polygon class="st1" points="53.9,31.1 39.6,31.1 39.6,28.8 53.9,28.8 53.9,25.3 62.2,30 53.9,34.7 		"/&gt;
+	&lt;/g&gt;
+	&lt;g&gt;
+		&lt;polygon class="st1" points="51.4,19.6 39.4,27.4 38.2,25.5 50.2,17.7 48.2,14.8 57.7,14.2 53.3,22.6 		"/&gt;
+	&lt;/g&gt;
+	&lt;g&gt;
+		&lt;polygon class="st1" points="51.4,40.1 39.4,32.4 38.2,34.3 50.2,42.1 48.2,45 57.7,45.6 53.3,37.2 		"/&gt;
+	&lt;/g&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="3" xml:space="preserve">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --&gt;
+&lt;svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 62.4 62" style="enable-background:new 0 0 62.4 62;" xml:space="preserve"&gt;
+&lt;style type="text/css"&gt;
+	.st0{fill:#008998;stroke:#FFFFFF;stroke-width:0.8;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#FFFFFF;stroke:#008998;stroke-width:0.8;}
+&lt;/style&gt;
+&lt;g&gt;
+	&lt;g&gt;
+		&lt;g&gt;
+			&lt;g&gt;
+				&lt;rect x="1.2" y="7.6" class="st0" width="53.4" height="53.4"/&gt;
+				&lt;polygon class="st0" points="61.4,54.3 61.4,1 54.7,7.6 54.7,61 				"/&gt;
+			&lt;/g&gt;
+		&lt;/g&gt;
+		&lt;g&gt;
+			&lt;polygon class="st0" points="10.5,0.6 1.2,7.3 54.7,7.3 61.4,0.6 			"/&gt;
+			&lt;line class="st0" x1="54.7" y1="7.6" x2="1.2" y2="7.6"/&gt;
+			&lt;line class="st0" x1="54.7" y1="7.6" x2="61.4" y2="1"/&gt;
+			&lt;line class="st0" x1="54.7" y1="7.6" x2="54.7" y2="61"/&gt;
+			&lt;line class="st0" x1="54.7" y1="7.6" x2="1.2" y2="7.6"/&gt;
+			&lt;line class="st0" x1="54.7" y1="7.6" x2="61.4" y2="1"/&gt;
+		&lt;/g&gt;
+	&lt;/g&gt;
+	&lt;g&gt;
+		&lt;polygon class="st1" points="29.1,26.6 29.1,15 31.1,15 28.2,10.7 25.3,15 27.2,15 27.2,26.6 		"/&gt;
+		&lt;polygon class="st1" points="23.2,28.2 15,20.1 16.4,18.7 11.3,17.6 12.3,22.8 13.7,21.4 21.9,29.5 		"/&gt;
+		&lt;polygon class="st1" points="20.2,33.6 8.7,33.6 8.7,31.6 4.3,34.5 8.7,37.4 8.7,35.4 20.2,35.4 		"/&gt;
+		&lt;polygon class="st1" points="21.9,39.5 13.7,47.6 12.3,46.2 11.3,51.4 16.4,50.3 15,48.9 23.2,40.8 		"/&gt;
+		&lt;polygon class="st1" points="27.2,42.5 27.2,54 25.3,54 28.2,58.4 31.1,54 29.1,54 29.1,42.5 		"/&gt;
+		&lt;polygon class="st1" points="33.1,40.8 41.3,48.9 39.9,50.3 45,51.4 44,46.2 42.6,47.6 34.4,39.5 		"/&gt;
+		&lt;polygon class="st1" points="36.1,35.4 47.7,35.4 47.7,37.4 52,34.5 47.7,31.6 47.7,33.6 36.1,33.6 		"/&gt;
+		&lt;polygon class="st1" points="34.4,29.5 42.6,21.4 44,22.8 45,17.6 39.9,18.7 41.3,20.1 33.1,28.2 		"/&gt;
+	&lt;/g&gt;
+	&lt;ellipse transform="matrix(0.8191 -0.5736 0.5736 0.8191 -14.614 22.4864)" class="st2" cx="28.4" cy="34.4" rx="12" ry="12"/&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="4" xml:space="preserve">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --&gt;
+&lt;svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 97.6 49.1" style="enable-background:new 0 0 97.6 49.1;" xml:space="preserve"&gt;
+&lt;style type="text/css"&gt;
+	.st0{fill:#008998;stroke:#FFFFFF;stroke-width:0.8;}
+	.st1{fill:#FFFFFF;}
+&lt;/style&gt;
+&lt;g&gt;
+	&lt;rect x="1.3" y="24.2" class="st0" width="71.4" height="23.2"/&gt;
+	&lt;polygon class="st0" points="1.1,24.3 30,0.9 96.6,0.9 72.7,24.3 	"/&gt;
+	&lt;polygon class="st0" points="72.7,48.1 96.6,22.3 96.6,1 72.7,24.3 	"/&gt;
+	&lt;polygon class="st1" points="43,18.2 41.6,19.3 23.8,19.3 22,21.1 17.2,19 26.9,16.2 25.2,18.2 	"/&gt;
+	&lt;polygon class="st1" points="57,9.5 55.6,10.6 37.8,10.6 36,12.4 31.2,10.3 40.9,7.5 39.2,9.5 	"/&gt;
+	&lt;polygon class="st1" points="46.1,15.1 47.5,14 65.4,14 67.1,12.2 72,14.3 62.2,17.1 64,15.1 	"/&gt;
+	&lt;polygon class="st1" points="55.4,6.4 56.8,5.2 74.6,5.2 76.4,3.5 81.2,5.6 71.5,8.3 73.2,6.4 	"/&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="5" xml:space="preserve">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --&gt;
+&lt;svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 58.2 64.8" style="enable-background:new 0 0 58.2 64.8;" xml:space="preserve"&gt;
+&lt;style type="text/css"&gt;
+	.st0{fill:#008998;stroke:#FFFFFF;stroke-width:0.8;}
+	.st1{fill:#008998;stroke:#FFFFFF;stroke-width:0.8;}
+	.st2{fill:#008998;stroke:#FFFFFF;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;}
+	.st3{fill:none;stroke:#FFFFFF;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;}
+	.st4{fill:#FFFFFF;}
+	.st5{fill:#FFFFFF;stroke:#008998;stroke-width:0.4;}
+	.st6{fill:none;stroke:#FFFFFF;}
+&lt;/style&gt;
+&lt;polyline class="st0" points="1.2,45 1.2,64.1 48.5,64.1 48.5,45 "/&gt;
+&lt;polygon class="st1" points="1.2,7.1 9.4,0.6 57,0.6 48.5,7.1 "/&gt;
+&lt;polygon class="st2" points="48.5,64.4 57,57.6 57,38.3 48.5,44.7 "/&gt;
+&lt;line class="st3" x1="48.5" y1="51.2" x2="1.2" y2="51.2"/&gt;
+&lt;line class="st3" x1="48.5" y1="57.8" x2="1.2" y2="57.8"/&gt;
+&lt;line class="st3" x1="56.3" y1="52.1" x2="48.9" y2="57.9"/&gt;
+&lt;line class="st3" x1="15.2" y1="58.1" x2="15.2" y2="64"/&gt;
+&lt;line class="st3" x1="33.5" y1="58.1" x2="33.5" y2="64"/&gt;
+&lt;line class="st3" x1="24.7" y1="51.5" x2="24.7" y2="57.4"/&gt;
+&lt;line class="st3" x1="6.4" y1="51.5" x2="6.4" y2="57.4"/&gt;
+&lt;line class="st3" x1="43" y1="51.5" x2="43" y2="57.4"/&gt;
+&lt;polygon class="st1" points="48.7,6.8 48.7,51.2 0.9,51.2 0.9,6.7 "/&gt;
+&lt;polygon class="st1" points="56.7,44.4 56.7,0.8 48.6,6.9 48.6,50.9 "/&gt;
+&lt;line class="st3" x1="54.9" y1="46.2" x2="54.9" y2="53.3"/&gt;
+&lt;line class="st3" x1="52.1" y1="55.3" x2="52.1" y2="62.4"/&gt;
+&lt;path class="st0" d="M17.5,59.2"/&gt;
+&lt;polygon class="st4" points="10.1,23.7 28.6,23.7 28.6,22.4 32.7,24.9 28.6,27.5 28.6,26.2 10.1,26.2 "/&gt;
+&lt;polygon class="st4" points="38.5,30.3 23,30.3 23,29 18.9,31.5 23,34.1 23,32.8 38.5,32.8 "/&gt;
+&lt;ellipse transform="matrix(0.9934 -0.1149 0.1149 0.9934 -4.8266 5.3836)" class="st5" cx="44.3" cy="44.6" rx="1.5" ry="1.5"/&gt;
+&lt;rect x="37.3" y="34.5" transform="matrix(0.6305 -0.7762 0.7762 0.6305 -16.9488 45.5664)" class="st5" width="4.2" height="12.1"/&gt;
+&lt;path class="st5" d="M11.4,26.1c-0.9,7.8,4.7,14.8,12.5,15.7c7.8,0.9,14.8-4.7,15.7-12.5c0.9-7.8-4.7-14.8-12.5-15.7
+	C19.4,12.7,12.3,18.3,11.4,26.1z M13.4,26.3c0.8-6.7,6.8-11.5,13.5-10.7c6.7,0.8,11.5,6.8,10.7,13.5c-0.8,6.7-6.8,11.5-13.5,10.7
+	C17.5,39,12.6,33,13.4,26.3z"/&gt;
+&lt;path class="st5" d="M9.7,26.7c-0.9,7.8,4.7,14.8,12.5,15.7c7.8,0.9,14.8-4.7,15.7-12.5c0.9-7.8-4.7-14.8-12.5-15.7
+	C17.6,13.3,10.6,18.9,9.7,26.7z M11.7,26.9c0.8-6.7,6.8-11.5,13.5-10.7C31.8,17,36.6,23,35.9,29.7c-0.8,6.7-6.8,11.5-13.5,10.7
+	C15.7,39.6,10.9,33.6,11.7,26.9z"/&gt;
+&lt;path d="M44.3,44.6"/&gt;
+&lt;line class="st6" x1="38.5" y1="31.8" x2="46.3" y2="31.8"/&gt;
+&lt;line class="st6" x1="3.6" y1="24.9" x2="11.5" y2="24.9"/&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="6" xml:space="preserve">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --&gt;
+&lt;svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 164.7 95.9" style="enable-background:new 0 0 164.7 95.9;" xml:space="preserve"&gt;
+&lt;style type="text/css"&gt;
+	.st0{fill:#FFFFFF;stroke:#008998;stroke-width:0.8;}
+&lt;/style&gt;
+&lt;g&gt;
+	&lt;path class="st0" d="M57.2,11.4c-28.8-5.7-44,9-41.6,21.8l0.2,0.7C-6.7,37.7-0.8,64.1,10,64.1l1.1,0C8.3,76.6,34.5,89.2,49.2,82.9
+		l0.9-1c5.2,11.2,23.7,13.1,42.1,13.5c15.9,0.4,25.1-0.8,32-7.8l1,0.3c25.4,2,37-15.5,31.4-28.1l1.4-0.4c8.7-2.3,9.7-22.3-5.2-25.3
+		l0.3-0.8c6.5-13-8.8-25.3-29.9-23l-1.5-0.8C106.6-4.1,63.1-1.8,58,11.7L57.2,11.4z"/&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+    </y:Resources>
+  </data>
+</graphml>

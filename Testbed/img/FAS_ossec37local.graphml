@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yEd 3.23.2-->
+  <key attr.name="Description" attr.type="string" for="graph" id="d0"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key for="graphml" id="d7" yfiles.type="resources"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+  <key for="edge" id="d10" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <data key="d0" xml:space="preserve"/>
+    <node id="n0">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="145.50922356522503" width="101.43512230056086" x="164.63236511332252" y="151.40842945463623"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="sides" modelPosition="s" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="170.7236328125" x="-34.64425525596957" xml:space="preserve" y="149.50922356522506">server1
+</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="90.62838822305048" y="75.47654241571834">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.5" labelRatioY="0.0" nodeRatioX="0.4328956881686261" nodeRatioY="0.03245107435398542" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="240.328125" x="-69.44650134971971" xml:space="preserve" y="223.87077178499953">130.10.0.1<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="-1.3877787807814457E-15" nodeRatioY="0.5" offsetX="0.0" offsetY="78.36154821977448" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="1"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="145.50922356522503" width="101.43512230056086" x="164.63236511332252" y="452.1478750606118"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="sides" modelPosition="s" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="170.7236328125" x="-34.64425525596957" xml:space="preserve" y="149.50922356522506">server2
+</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="240.328125" x="-69.44650134971971" xml:space="preserve" y="235.53249896697014">130.10.0.2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="-1.3877787807814457E-15" nodeRatioY="0.5" offsetX="0.0" offsetY="90.02327540174508" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="1"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="145.50922356522503" width="101.43512230056086" x="164.63236511332252" y="752.8873206665874"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="sides" modelPosition="s" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="170.7236328125" x="-34.64425525596957" xml:space="preserve" y="149.50922356522506">server3
+</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="240.328125" x="-69.44650134971971" xml:space="preserve" y="226.48598368930448">130.10.0.3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="-1.3877787807814457E-15" nodeRatioY="0.5" offsetX="0.0" offsetY="80.97676012407942" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="1"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="76.00121452978007" width="151.1387006515322" x="600.3492986021638" y="486.9018795783343"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="73.5693503257661" y="80.0012145297801"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="2"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="149.92324878351184" width="150.99944894254782" x="1265.0708263430363" y="449.94086245146843"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="sides" modelPosition="n" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="242.9892578125" x="-45.99490443497598" xml:space="preserve" y="-69.2548828125">forwarder1</y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="3"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n5">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="73.53374625481987" width="90.03433549821972" x="296.06748741388344" y="187.39616810983884"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="43.01716774910983" y="77.53374625481987"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="4"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="76.00121452978007" width="151.1387006515322" x="2531.0879652193535" y="486.9018795783343"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="73.5693503257661" y="80.0012145297801"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="2"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n7">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="192.74306618169086" width="87.852035755089" x="1929.6531023749244" y="428.5309537523789"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="sides" modelPosition="n" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="187.3984375" x="-49.77320087245539" xml:space="preserve" y="-69.2548828125">firewall1</y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="5"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n8">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="127.5851265367925" width="151.1183149093447" x="3016.5084770591684" y="200.52578046528743"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="sides" modelPosition="s" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="148.53125" x="1.2935324546724587" xml:space="preserve" y="131.58512653679253">client1</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="62.185956270636325" y="94.67730383124234">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.5" nodeRatioX="-0.07526024354400052" nodeRatioY="0.2734232548085158" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="268.1357421875" x="-58.50871363907754" xml:space="preserve" y="216.95803702721952">192.168.3.1<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="0.0" nodeRatioY="0.5" offsetX="0.0" offsetY="89.37291049042699" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="6"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n9">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="127.5851265367925" width="151.1183149093447" x="3016.5084770591684" y="721.6940666843689"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="sides" modelPosition="s" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="148.53125" x="1.2935324546724587" xml:space="preserve" y="131.58512653679253">client2</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="268.1357421875" x="-58.50871363907754" xml:space="preserve" y="217.64452486360284">192.168.3.2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="7.771561172376096E-16" nodeRatioY="0.5" offsetX="0.0" offsetY="90.05939832681031" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="6"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n10">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="468.98554346289734" width="1055.2714643567542" x="962.2336737732592" y="752.8873206665874"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Consolas" fontSize="40" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="404.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1015.640625" x="19.81541967837711" xml:space="preserve" y="32.49277173144867">&lt;firewall defaultAction="DENY"&gt;
+    &lt;elements&gt;
+        &lt;action&gt;ALLOW&lt;/action&gt;
+        &lt;source&gt;-1.-1.-1.-1&lt;/source&gt;
+        &lt;destination&gt;-1.-1.-1.-1&lt;/destination&gt;
+        &lt;protocol&gt;TCP&lt;/protocol&gt;
+        &lt;src_port&gt;*&lt;/src_port&gt;
+        &lt;dst_port&gt;*&lt;/dst_port&gt;
+    &lt;/elements&gt;
+&lt;/firewall&gt;</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <edge id="e0" source="n0" target="n3">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="3.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n1" target="n3">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="3.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n2" target="n3">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="3.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e3" source="n3" target="n4">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="3.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="six_pos" modelPosition="thead" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="295.943359375" x="212.05074577663004" xml:space="preserve" y="-67.25486178958818">130.10.0.100<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e4" source="n6" target="n7">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-74.07932525760862" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="3.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="six_pos" modelPosition="thead" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="323.7509765625" x="-504.9477427293614" xml:space="preserve" y="-67.25486178958818">192.168.3.100<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e5" source="n4" target="n7">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="38.16995271925725" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="3.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="six_pos" modelPosition="shead" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="184.712890625" x="10.095787980896603" xml:space="preserve" y="-67.25486178958818">20.0.0.1<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="50" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="65.2548828125" horizontalTextPosition="center" iconTextGap="4" modelName="six_pos" modelPosition="ttail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="184.712890625" x="318.7157244452369" xml:space="preserve" y="2.000021022911824">20.0.0.2<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e6" source="n6" target="n8">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="39.26422123932798" sy="-16.834681949231367" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="3.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e7" source="n6" target="n9">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="33.247877493745364" sy="15.753846672676787" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="3.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e8" source="n7" target="n10">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="132.51960851832564" ty="9.932067716802521"/>
+          <y:LineStyle color="#000000" type="line" width="3.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+  </graph>
+  <data key="d7">
+    <y:Resources>
+      <y:Resource id="1" xml:space="preserve">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --&gt;
+&lt;svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 42 60.2" style="enable-background:new 0 0 42 60.2;" xml:space="preserve"&gt;
+&lt;style type="text/css"&gt;
+	.st0{fill:#008998;stroke:#FFFFFF;stroke-width:0.8;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:0.8;}
+&lt;/style&gt;
+&lt;g&gt;
+	&lt;polyline class="st0" points="31.7,10.2 1,10.2 1,59.3 31.7,59.3 	"/&gt;
+	&lt;polygon class="st0" points="31.7,59.3 41.6,49.4 41.6,0.4 10.8,0.4 1,10.2 31.7,10.2 	"/&gt;
+	&lt;line class="st0" x1="31.7" y1="10.2" x2="41.6" y2="0.4"/&gt;
+	&lt;line class="st1" x1="1.5" y1="29.3" x2="31.5" y2="29.3"/&gt;
+	&lt;line class="st1" x1="1.5" y1="51.8" x2="31.5" y2="51.8"/&gt;
+	&lt;line class="st1" x1="8.5" y1="17.8" x2="17.2" y2="17.8"/&gt;
+	&lt;g&gt;
+		&lt;rect x="5" y="14.6" class="st1" width="15.5" height="6.3"/&gt;
+	&lt;/g&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="2" xml:space="preserve">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --&gt;
+&lt;svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 97.6 49.1" style="enable-background:new 0 0 97.6 49.1;" xml:space="preserve"&gt;
+&lt;style type="text/css"&gt;
+	.st0{fill:#008998;stroke:#FFFFFF;stroke-width:0.8;}
+	.st1{fill:#FFFFFF;}
+&lt;/style&gt;
+&lt;g&gt;
+	&lt;rect x="1.3" y="24.2" class="st0" width="71.4" height="23.2"/&gt;
+	&lt;polygon class="st0" points="1.1,24.3 30,0.9 96.6,0.9 72.7,24.3 	"/&gt;
+	&lt;polygon class="st0" points="72.7,48.1 96.6,22.3 96.6,1 72.7,24.3 	"/&gt;
+	&lt;polygon class="st1" points="43,18.2 41.6,19.3 23.8,19.3 22,21.1 17.2,19 26.9,16.2 25.2,18.2 	"/&gt;
+	&lt;polygon class="st1" points="57,9.5 55.6,10.6 37.8,10.6 36,12.4 31.2,10.3 40.9,7.5 39.2,9.5 	"/&gt;
+	&lt;polygon class="st1" points="46.1,15.1 47.5,14 65.4,14 67.1,12.2 72,14.3 62.2,17.1 64,15.1 	"/&gt;
+	&lt;polygon class="st1" points="55.4,6.4 56.8,5.2 74.6,5.2 76.4,3.5 81.2,5.6 71.5,8.3 73.2,6.4 	"/&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="3" xml:space="preserve">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --&gt;
+&lt;svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 62.4 62" style="enable-background:new 0 0 62.4 62;" xml:space="preserve"&gt;
+&lt;style type="text/css"&gt;
+	.st0{fill:#008998;stroke:#FFFFFF;stroke-width:0.8;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#FFFFFF;stroke:#008998;stroke-width:0.8;}
+&lt;/style&gt;
+&lt;g&gt;
+	&lt;g&gt;
+		&lt;g&gt;
+			&lt;g&gt;
+				&lt;rect x="1.2" y="7.6" class="st0" width="53.4" height="53.4"/&gt;
+				&lt;polygon class="st0" points="61.4,54.3 61.4,1 54.7,7.6 54.7,61 				"/&gt;
+			&lt;/g&gt;
+		&lt;/g&gt;
+		&lt;g&gt;
+			&lt;polygon class="st0" points="10.5,0.6 1.2,7.3 54.7,7.3 61.4,0.6 			"/&gt;
+			&lt;line class="st0" x1="54.7" y1="7.6" x2="1.2" y2="7.6"/&gt;
+			&lt;line class="st0" x1="54.7" y1="7.6" x2="61.4" y2="1"/&gt;
+			&lt;line class="st0" x1="54.7" y1="7.6" x2="54.7" y2="61"/&gt;
+			&lt;line class="st0" x1="54.7" y1="7.6" x2="1.2" y2="7.6"/&gt;
+			&lt;line class="st0" x1="54.7" y1="7.6" x2="61.4" y2="1"/&gt;
+		&lt;/g&gt;
+	&lt;/g&gt;
+	&lt;g&gt;
+		&lt;polygon class="st1" points="29.1,26.6 29.1,15 31.1,15 28.2,10.7 25.3,15 27.2,15 27.2,26.6 		"/&gt;
+		&lt;polygon class="st1" points="23.2,28.2 15,20.1 16.4,18.7 11.3,17.6 12.3,22.8 13.7,21.4 21.9,29.5 		"/&gt;
+		&lt;polygon class="st1" points="20.2,33.6 8.7,33.6 8.7,31.6 4.3,34.5 8.7,37.4 8.7,35.4 20.2,35.4 		"/&gt;
+		&lt;polygon class="st1" points="21.9,39.5 13.7,47.6 12.3,46.2 11.3,51.4 16.4,50.3 15,48.9 23.2,40.8 		"/&gt;
+		&lt;polygon class="st1" points="27.2,42.5 27.2,54 25.3,54 28.2,58.4 31.1,54 29.1,54 29.1,42.5 		"/&gt;
+		&lt;polygon class="st1" points="33.1,40.8 41.3,48.9 39.9,50.3 45,51.4 44,46.2 42.6,47.6 34.4,39.5 		"/&gt;
+		&lt;polygon class="st1" points="36.1,35.4 47.7,35.4 47.7,37.4 52,34.5 47.7,31.6 47.7,33.6 36.1,33.6 		"/&gt;
+		&lt;polygon class="st1" points="34.4,29.5 42.6,21.4 44,22.8 45,17.6 39.9,18.7 41.3,20.1 33.1,28.2 		"/&gt;
+	&lt;/g&gt;
+	&lt;ellipse transform="matrix(0.8191 -0.5736 0.5736 0.8191 -14.614 22.4864)" class="st2" cx="28.4" cy="34.4" rx="12" ry="12"/&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="4" xml:space="preserve">&lt;?xml version="1.0"  encoding="UTF-8" standalone="no"?&gt;
+&lt;svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1315.0000" height="1074.0000"&gt;
+&lt;g transform="translate(371.0000, 250.0000)"&gt;
+&lt;path d="M -274.0000,4.0000 C -202.0000,4.0000 -174.0000,-57.0000 -174.0000,-123.0000 C -174.0000,-189.0000 -202.0000,-250.0000 -274.0000,-250.0000 C -344.0000,-250.0000 -371.0000,-189.0000 -371.0000,-123.0000 C -371.0000,-57.0000 -344.0000,4.0000 -274.0000,4.0000 Z M -273.0000,-201.0000 C -233.0000,-201.0000 -232.0000,-155.0000 -232.0000,-123.0000 C -232.0000,-91.0000 -233.0000,-45.0000 -273.0000,-45.0000 C -311.0000,-45.0000 -313.0000,-91.0000 -313.0000,-123.0000 C -313.0000,-155.0000 -311.0000,-201.0000 -273.0000,-201.0000 Z "  fill="#008998" stroke="none" /&gt;
+&lt;path d="M -1.0000,-247.0000 C -51.0000,-247.0000 -51.0000,-247.0000 -51.0000,-247.0000 C -53.0000,-208.0000 -89.0000,-194.0000 -124.0000,-195.0000 C -124.0000,-151.0000 -124.0000,-151.0000 -124.0000,-151.0000 C -64.0000,-151.0000 -64.0000,-151.0000 -64.0000,-151.0000 C -64.0000,-79.0000 -64.0000,-79.0000 -64.0000,-79.0000 C -45.0000,-95.0000 -24.0000,-108.0000 -1.0000,-119.0000 Z "  fill="#008998" stroke="none" /&gt;
+&lt;path d="M 135.0000,-154.0000 C 138.0000,-178.0000 147.0000,-201.0000 174.0000,-201.0000 C 204.0000,-201.0000 212.0000,-175.0000 214.0000,-148.0000 C 234.0000,-144.0000 254.0000,-139.0000 273.0000,-132.0000 C 273.0000,-132.0000 273.0000,-132.0000 273.0000,-131.0000 C 271.0000,-194.0000 242.0000,-250.0000 173.0000,-250.0000 C 111.0000,-250.0000 83.0000,-203.0000 77.0000,-146.0000 C 78.0000,-146.0000 78.0000,-146.0000 79.0000,-147.0000 C 98.0000,-151.0000 117.0000,-153.0000 135.0000,-154.0000 Z "  fill="#008998" stroke="none" /&gt;
+&lt;path d="M 342.0000,-96.0000 C 348.0000,-92.0000 354.0000,-88.0000 360.0000,-83.0000 C 358.0000,-96.0000 357.0000,-111.0000 357.0000,-123.0000 C 357.0000,-155.0000 359.0000,-201.0000 398.0000,-201.0000 C 437.0000,-201.0000 439.0000,-155.0000 439.0000,-123.0000 C 439.0000,-92.0000 437.0000,-49.0000 402.0000,-45.0000 C 415.0000,-33.0000 426.0000,-19.0000 436.0000,-4.0000 C 479.0000,-22.0000 497.0000,-71.0000 497.0000,-123.0000 C 497.0000,-189.0000 468.0000,-250.0000 396.0000,-250.0000 C 326.0000,-250.0000 299.0000,-189.0000 299.0000,-123.0000 C 299.0000,-122.0000 299.0000,-121.0000 299.0000,-120.0000 C 308.0000,-116.0000 318.0000,-111.0000 326.0000,-106.0000 C 332.0000,-103.0000 337.0000,-99.0000 342.0000,-96.0000 Z "  fill="#008998" stroke="none" /&gt;
+&lt;path d="M 606.0000,1.0000 C 670.0000,1.0000 670.0000,1.0000 670.0000,1.0000 C 670.0000,-247.0000 670.0000,-247.0000 670.0000,-247.0000 C 620.0000,-247.0000 620.0000,-247.0000 620.0000,-247.0000 C 617.0000,-208.0000 582.0000,-194.0000 547.0000,-195.0000 C 547.0000,-151.0000 547.0000,-151.0000 547.0000,-151.0000 C 606.0000,-151.0000 606.0000,-151.0000 606.0000,-151.0000 Z "  fill="#008998" stroke="none" /&gt;
+&lt;path d="M 829.0000,1.0000 C 893.0000,1.0000 893.0000,1.0000 893.0000,1.0000 C 893.0000,-247.0000 893.0000,-247.0000 893.0000,-247.0000 C 843.0000,-247.0000 843.0000,-247.0000 843.0000,-247.0000 C 840.0000,-208.0000 805.0000,-194.0000 770.0000,-195.0000 C 770.0000,-151.0000 770.0000,-151.0000 770.0000,-151.0000 C 829.0000,-151.0000 829.0000,-151.0000 829.0000,-151.0000 Z "  fill="#008998" stroke="none" /&gt;
+&lt;path d="M -224.0000,311.0000 C -224.0000,64.0000 -224.0000,64.0000 -224.0000,64.0000 C -274.0000,64.0000 -274.0000,64.0000 -274.0000,64.0000 C -277.0000,102.0000 -312.0000,116.0000 -347.0000,115.0000 C -347.0000,159.0000 -347.0000,159.0000 -347.0000,159.0000 C -288.0000,159.0000 -288.0000,159.0000 -288.0000,159.0000 C -288.0000,311.0000 -288.0000,311.0000 -288.0000,311.0000 Z "  fill="#008998" stroke="none" /&gt;
+&lt;path d="M 606.0000,311.0000 C 670.0000,311.0000 670.0000,311.0000 670.0000,311.0000 C 670.0000,64.0000 670.0000,64.0000 670.0000,64.0000 C 620.0000,64.0000 620.0000,64.0000 620.0000,64.0000 C 617.0000,102.0000 582.0000,116.0000 547.0000,115.0000 C 547.0000,159.0000 547.0000,159.0000 547.0000,159.0000 C 606.0000,159.0000 606.0000,159.0000 606.0000,159.0000 Z "  fill="#008998" stroke="none" /&gt;
+&lt;path d="M 843.0000,61.0000 C 773.0000,61.0000 746.0000,121.0000 746.0000,187.0000 C 746.0000,253.0000 773.0000,314.0000 843.0000,314.0000 C 915.0000,314.0000 944.0000,253.0000 944.0000,187.0000 C 944.0000,121.0000 915.0000,61.0000 843.0000,61.0000 Z M 845.0000,265.0000 C 806.0000,265.0000 804.0000,219.0000 804.0000,187.0000 C 804.0000,155.0000 806.0000,110.0000 845.0000,110.0000 C 884.0000,110.0000 885.0000,155.0000 885.0000,187.0000 C 885.0000,219.0000 884.0000,265.0000 845.0000,265.0000 Z "  fill="#008998" stroke="none" /&gt;
+&lt;path d="M -274.0000,371.0000 C -344.0000,371.0000 -371.0000,431.0000 -371.0000,497.0000 C -371.0000,563.0000 -344.0000,624.0000 -274.0000,624.0000 C -202.0000,624.0000 -174.0000,563.0000 -174.0000,497.0000 C -174.0000,431.0000 -202.0000,371.0000 -274.0000,371.0000 Z M -273.0000,576.0000 C -311.0000,576.0000 -313.0000,530.0000 -313.0000,497.0000 C -313.0000,465.0000 -311.0000,420.0000 -273.0000,420.0000 C -233.0000,420.0000 -232.0000,465.0000 -232.0000,497.0000 C -232.0000,530.0000 -233.0000,576.0000 -273.0000,576.0000 Z "  fill="#008998" stroke="none" /&gt;
+&lt;path d="M -49.0000,576.0000 C -87.0000,576.0000 -90.0000,530.0000 -90.0000,497.0000 C -90.0000,482.0000 -89.0000,463.0000 -84.0000,448.0000 C -87.0000,445.0000 -91.0000,441.0000 -94.0000,438.0000 C -104.0000,428.0000 -114.0000,417.0000 -123.0000,406.0000 C -140.0000,429.0000 -148.0000,462.0000 -148.0000,497.0000 C -148.0000,563.0000 -121.0000,624.0000 -51.0000,624.0000 C 12.0000,624.0000 41.0000,579.0000 48.0000,524.0000 C 29.0000,518.0000 10.0000,510.0000 -8.0000,501.0000 C -8.0000,533.0000 -11.0000,576.0000 -49.0000,576.0000 Z "  fill="#008998" stroke="none" /&gt;
+&lt;path d="M 183.0000,538.0000 C 175.0000,538.0000 167.0000,539.0000 159.0000,539.0000 C 159.0000,621.0000 159.0000,621.0000 159.0000,621.0000 C 223.0000,621.0000 223.0000,621.0000 223.0000,621.0000 C 223.0000,532.0000 223.0000,532.0000 223.0000,532.0000 C 222.0000,532.0000 222.0000,532.0000 222.0000,532.0000 C 209.0000,534.0000 196.0000,536.0000 183.0000,538.0000 Z "  fill="#008998" stroke="none" /&gt;
+&lt;path d="M 383.0000,621.0000 L 446.0000,621.0000 L 446.0000,585.0000 L 383.0000,526.0000 L 383.0000,621.0000 Z "  fill="#008998" stroke-width="1px" stroke="#FFFFFF" /&gt;
+&lt;path d="M 621.0000,420.0000 C 661.0000,420.0000 662.0000,465.0000 662.0000,497.0000 C 662.0000,516.0000 662.0000,540.0000 653.0000,556.0000 C 692.0000,592.0000 692.0000,592.0000 692.0000,592.0000 C 712.0000,568.0000 720.0000,534.0000 720.0000,497.0000 C 720.0000,431.0000 692.0000,371.0000 619.0000,371.0000 C 570.0000,371.0000 542.0000,401.0000 530.0000,442.0000 C 581.0000,489.0000 581.0000,489.0000 581.0000,489.0000 C 581.0000,458.0000 586.0000,420.0000 621.0000,420.0000 Z "  fill="#008998" stroke="none" /&gt;
+&lt;path d="M 770.0000,425.0000 C 770.0000,469.0000 770.0000,469.0000 770.0000,469.0000 C 829.0000,469.0000 829.0000,469.0000 829.0000,469.0000 C 829.0000,621.0000 829.0000,621.0000 829.0000,621.0000 C 893.0000,621.0000 893.0000,621.0000 893.0000,621.0000 C 893.0000,374.0000 893.0000,374.0000 893.0000,374.0000 C 843.0000,374.0000 843.0000,374.0000 843.0000,374.0000 C 840.0000,413.0000 805.0000,426.0000 770.0000,425.0000 Z "  fill="#008998" stroke="none" /&gt;
+&lt;path d="M 130.0000,200.0000 C 130.0000,110.0000 92.0000,29.0000 -6.0000,29.0000 C -21.0000,29.0000 -34.0000,31.0000 -47.0000,35.0000 C -92.0000,92.0000 -113.0000,169.0000 -97.0000,246.0000 C -87.0000,294.0000 -64.0000,336.0000 -33.0000,369.0000 C -24.0000,370.0000 -15.0000,371.0000 -6.0000,371.0000 C 92.0000,371.0000 130.0000,289.0000 130.0000,200.0000 Z M -58.0000,200.0000 C -58.0000,156.0000 -55.0000,95.0000 -3.0000,95.0000 C 50.0000,95.0000 52.0000,156.0000 52.0000,200.0000 C 52.0000,243.0000 50.0000,305.0000 -3.0000,305.0000 C -55.0000,305.0000 -58.0000,243.0000 -58.0000,200.0000 Z "  fill="#008998" stroke="none" /&gt;
+&lt;path d="M 352.0000,33.0000 C 296.0000,33.0000 296.0000,33.0000 296.0000,33.0000 C 293.0000,85.0000 245.0000,104.0000 198.0000,102.0000 C 198.0000,162.0000 198.0000,162.0000 198.0000,162.0000 C 278.0000,162.0000 278.0000,162.0000 278.0000,162.0000 C 278.0000,367.0000 278.0000,367.0000 278.0000,367.0000 C 340.0000,367.0000 340.0000,367.0000 340.0000,367.0000 C 349.0000,358.0000 357.0000,348.0000 364.0000,337.0000 C 364.0000,50.0000 364.0000,50.0000 364.0000,50.0000 C 360.0000,44.0000 356.0000,39.0000 352.0000,33.0000 Z "  fill="#008998" stroke="none" /&gt;
+&lt;path d="M 793.0000,684.0000 C 772.0000,665.0000 772.0000,665.0000 772.0000,665.0000 C 666.0000,566.0000 666.0000,566.0000 666.0000,566.0000 C 584.0000,490.0000 584.0000,490.0000 584.0000,490.0000 C 453.0000,369.0000 453.0000,369.0000 453.0000,369.0000 C 462.0000,352.0000 462.0000,352.0000 462.0000,352.0000 C 471.0000,334.0000 478.0000,315.0000 484.0000,295.0000 C 486.0000,289.0000 488.0000,283.0000 490.0000,277.0000 C 502.0000,228.0000 503.0000,175.0000 492.0000,123.0000 C 491.0000,115.0000 489.0000,107.0000 486.0000,100.0000 C 467.0000,30.0000 427.0000,-29.0000 375.0000,-72.0000 C 365.0000,-80.0000 355.0000,-88.0000 345.0000,-95.0000 C 340.0000,-98.0000 334.0000,-102.0000 329.0000,-105.0000 C 323.0000,-108.0000 317.0000,-112.0000 310.0000,-115.0000 C 299.0000,-121.0000 287.0000,-126.0000 275.0000,-130.0000 C 269.0000,-133.0000 264.0000,-135.0000 258.0000,-136.0000 C 231.0000,-145.0000 202.0000,-151.0000 173.0000,-152.0000 C 143.0000,-154.0000 113.0000,-152.0000 82.0000,-145.0000 C 75.0000,-144.0000 69.0000,-142.0000 62.0000,-141.0000 C 31.0000,-132.0000 3.0000,-120.0000 -24.0000,-104.0000 C -92.0000,-64.0000 -143.0000,-2.0000 -171.0000,71.0000 C -178.0000,89.0000 -183.0000,108.0000 -187.0000,127.0000 C -196.0000,171.0000 -196.0000,218.0000 -186.0000,265.0000 C -172.0000,334.0000 -138.0000,393.0000 -92.0000,439.0000 C -84.0000,447.0000 -75.0000,455.0000 -66.0000,462.0000 C -60.0000,467.0000 -53.0000,472.0000 -46.0000,477.0000 C 2.0000,511.0000 58.0000,533.0000 118.0000,539.0000 C 140.0000,541.0000 163.0000,541.0000 186.0000,539.0000 C 190.0000,538.0000 194.0000,538.0000 198.0000,537.0000 C 207.0000,536.0000 215.0000,535.0000 224.0000,533.0000 C 231.0000,532.0000 237.0000,530.0000 244.0000,528.0000 C 278.0000,519.0000 309.0000,505.0000 338.0000,487.0000 C 341.0000,486.0000 341.0000,486.0000 341.0000,486.0000 C 364.0000,507.0000 364.0000,507.0000 364.0000,507.0000 C 579.0000,707.0000 579.0000,707.0000 579.0000,707.0000 C 664.0000,786.0000 664.0000,786.0000 664.0000,786.0000 C 683.0000,803.0000 683.0000,803.0000 683.0000,803.0000 C 693.0000,812.0000 705.0000,819.0000 718.0000,822.0000 C 720.0000,822.0000 722.0000,822.0000 724.0000,822.0000 C 730.0000,823.0000 735.0000,824.0000 738.0000,824.0000 C 758.0000,823.0000 777.0000,814.0000 791.0000,799.0000 C 797.0000,792.0000 797.0000,792.0000 797.0000,792.0000 C 806.0000,783.0000 812.0000,771.0000 815.0000,758.0000 C 817.0000,752.0000 818.0000,745.0000 817.0000,738.0000 C 817.0000,717.0000 808.0000,698.0000 793.0000,684.0000 Z M 364.0000,337.0000 C 357.0000,348.0000 349.0000,358.0000 340.0000,367.0000 C 306.0000,405.0000 259.0000,432.0000 206.0000,444.0000 C 115.0000,462.0000 26.0000,431.0000 -33.0000,369.0000 C -64.0000,336.0000 -87.0000,294.0000 -97.0000,246.0000 C -113.0000,169.0000 -92.0000,92.0000 -47.0000,35.0000 C -11.0000,-10.0000 40.0000,-43.0000 101.0000,-56.0000 C 198.0000,-76.0000 293.0000,-39.0000 352.0000,33.0000 C 356.0000,39.0000 360.0000,44.0000 364.0000,50.0000 C 382.0000,77.0000 396.0000,108.0000 403.0000,141.0000 C 418.0000,212.0000 402.0000,282.0000 364.0000,337.0000 Z "  fill="#008998" stroke="none" /&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="5" xml:space="preserve">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --&gt;
+&lt;svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 30.2 66.2" style="enable-background:new 0 0 30.2 66.2;" xml:space="preserve"&gt;
+&lt;style type="text/css"&gt;
+	.st0{fill:#008998;stroke:#FFFFFF;stroke-width:0.8;}
+&lt;/style&gt;
+&lt;g&gt;
+	&lt;rect x="1.2" y="12.1" class="st0" width="15.9" height="53"/&gt;
+	&lt;polygon class="st0" points="17,12.1 1.2,12.1 15.3,0.9 29.2,0.9 	"/&gt;
+	&lt;polygon class="st0" points="29.2,0.9 29.2,51.5 17,65.2 17,12.1 	"/&gt;
+	&lt;line class="st0" x1="25.4" y1="12.8" x2="25.4" y2="4.3"/&gt;
+	&lt;line class="st0" x1="25.4" y1="30" x2="25.4" y2="21.5"/&gt;
+	&lt;line class="st0" x1="25.4" y1="47.2" x2="25.4" y2="38.7"/&gt;
+	&lt;g&gt;
+		&lt;line class="st0" x1="29.2" y1="43" x2="17" y2="56.3"/&gt;
+		&lt;line class="st0" x1="29.2" y1="34.6" x2="17" y2="47.5"/&gt;
+		&lt;line class="st0" x1="29.2" y1="26.2" x2="17" y2="38.7"/&gt;
+		&lt;line class="st0" x1="29.2" y1="17.8" x2="17" y2="29.8"/&gt;
+		&lt;line class="st0" x1="29.2" y1="9.3" x2="17" y2="21"/&gt;
+	&lt;/g&gt;
+	&lt;line class="st0" x1="17" y1="12.1" x2="29.2" y2="0.9"/&gt;
+	&lt;g&gt;
+		&lt;line class="st0" x1="17" y1="56.3" x2="1.2" y2="56.3"/&gt;
+		&lt;line class="st0" x1="17" y1="47.5" x2="1.2" y2="47.5"/&gt;
+		&lt;line class="st0" x1="17" y1="38.6" x2="1.2" y2="38.6"/&gt;
+		&lt;line class="st0" x1="17" y1="29.8" x2="1.2" y2="29.8"/&gt;
+		&lt;line class="st0" x1="17" y1="21" x2="1.2" y2="21"/&gt;
+	&lt;/g&gt;
+	&lt;line class="st0" x1="21.3" y1="60.3" x2="21.3" y2="51.8"/&gt;
+	&lt;line class="st0" x1="21.3" y1="42.9" x2="21.3" y2="34.3"/&gt;
+	&lt;line class="st0" x1="21.3" y1="25.6" x2="21.3" y2="17"/&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="6" xml:space="preserve">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --&gt;
+&lt;svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 71.8 60.6" style="enable-background:new 0 0 71.8 60.6;" xml:space="preserve"&gt;
+&lt;style type="text/css"&gt;
+	.st0{fill:none;stroke:#008998;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:#008998;stroke:#FFFFFF;stroke-width:0.8;}
+&lt;/style&gt;
+&lt;g&gt;
+	&lt;g&gt;
+		&lt;path class="st0" d="M65.3,51.1c0.8-1-3.6-2.3,1.4-3.1c3.2-0.5,12.9-6.2-9.8-6.5"/&gt;
+		&lt;rect x="13.3" y="43.9" class="st1" width="36.7" height="5.5"/&gt;
+		&lt;polygon class="st1" points="50,49.4 50,43.9 57.4,36.3 57.4,42 		"/&gt;
+		&lt;rect x="13.3" y="43.9" class="st1" width="36.7" height="6.5"/&gt;
+		&lt;polygon class="st1" points="50,50.4 50,43.9 57.4,36.3 57.4,43 		"/&gt;
+		&lt;polygon class="st1" points="60,35.3 54.8,42.9 9.1,42.9 16.4,35.3 		"/&gt;
+		&lt;rect x="9" y="42.9" class="st1" width="43.7" height="2.5"/&gt;
+		&lt;polygon class="st1" points="52.6,45.4 52.6,42.9 60,35.3 60,38 		"/&gt;
+		&lt;polygon class="st1" points="60,35.3 54.8,42.9 9.1,42.9 16.4,35.3 		"/&gt;
+		&lt;rect x="9" y="42.9" class="st1" width="43.7" height="2.5"/&gt;
+		&lt;polygon class="st1" points="52.6,45.4 52.6,42.9 60,35.3 60,38 		"/&gt;
+		&lt;polygon class="st1" points="60.2,0.7 20.7,0.7 9.2,3.4 54.9,3.4 		"/&gt;
+		&lt;polygon class="st1" points="52.9,39.7 50.9,38 13.8,38 15.8,39.7 		"/&gt;
+		&lt;polygon class="st1" points="53.1,39.4 50.6,37.7 60,32.7 54,38.7 		"/&gt;
+		&lt;polygon class="st1" points="54.9,3.4 54.9,37.5 60.2,32.5 60.2,0.7 		"/&gt;
+		&lt;rect x="9.2" y="3.4" class="st1" width="45.7" height="34.5"/&gt;
+	&lt;/g&gt;
+	&lt;g&gt;
+		&lt;polygon class="st1" points="51,59.3 51,56.7 56.8,48.8 56.8,53.6 		"/&gt;
+		&lt;rect x="0.6" y="56.7" class="st1" width="50.4" height="2.6"/&gt;
+		&lt;polygon class="st1" points="65.4,57.3 68.7,50.6 61.1,50.6 57.7,57.3 		"/&gt;
+		&lt;rect x="57.7" y="57.3" class="st1" width="7.6" height="2.2"/&gt;
+		&lt;polygon class="st1" points="65.3,59.5 65.3,57.3 68.7,50.6 68.7,55.2 		"/&gt;
+		&lt;polygon class="st1" points="51,56.7 0.8,56.7 6.5,48.8 56.8,48.8 		"/&gt;
+		&lt;path class="st1" d="M15.8,7h32.1c2.1,0,3.8,1.7,3.8,3.8V31c0,2.1-1.7,3.8-3.8,3.8H15.8c-2.1,0-3.8-1.7-3.8-3.8V10.8
+			C12,8.7,13.7,7,15.8,7z"/&gt;
+	&lt;/g&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+    </y:Resources>
+  </data>
+</graphml>

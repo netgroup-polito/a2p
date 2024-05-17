@@ -1,0 +1,3 @@
+<PropertyDefinition>
+    <Property graph="0" name="IsolationProperty" src="220.124.30.1" dst="130.10.0.4" dst_port="7597" lv4proto="TCP"/>
+</PropertyDefinition>

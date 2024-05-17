@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NFV
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../xsd/nfvSchema.xsd">
+    <graphs>
+        <graph id="0">
+            <!-- End points (Web servers ) -->
+            <node functional_type="WEBSERVER" name="130.10.0.1"> <!-- web server 1 -->
+                <neighbour name="1.0.0.1" />
+                <configuration description="e1" name="httpserver1">
+                    <webserver>
+                        <name>130.10.0.1</name>
+                        <monitor_name>ossec3.7local</monitor_name>
+                    </webserver>
+                </configuration>
+            </node>
+            <node functional_type="WEBSERVER" name="130.10.0.2"> <!-- web server 2 -->
+                <neighbour name="1.0.0.2" />
+                <configuration description="e2" name="httpserver2">
+                    <webserver>
+                        <name>130.10.0.2</name>
+                        <monitor_name>none</monitor_name>
+                    </webserver>
+                </configuration>
+            </node>
+            <node functional_type="WEBSERVER" name="130.10.0.3"> <!-- web server 3 -->
+                <neighbour name="1.0.0.3" />
+                <configuration description="e3" name="httpserver3">
+                    <webserver>
+                        <name>130.10.0.3</name>
+                        <monitor_name>none</monitor_name>
+                    </webserver>
+                </configuration>
+            </node>
+            <node name="1.0.0.1"> <!-- a1 -->
+                <neighbour name="130.10.0.1" />
+                <neighbour name="33.33.33.2" />
+            </node>
+            <node name="1.0.0.2"> <!-- a2 -->
+                <neighbour name="130.10.0.2" />
+                <neighbour name="33.33.33.2" />
+            </node>
+            <node name="1.0.0.3"> <!-- a3 -->
+                <neighbour name="130.10.0.3" />
+                <neighbour name="33.33.33.2" />
+            </node>
+            <node functional_type="FORWARDER" name="33.33.33.2">
+                <neighbour name="1.0.0.1" />
+                <neighbour name="1.0.0.2" />
+                <neighbour name="1.0.0.3" />
+                <neighbour name="1.0.0.4" />
+                <configuration name="ForwardConf">
+                    <forwarder>
+                        <name>Forwarder</name>
+                    </forwarder>
+                </configuration>
+            </node>
+            <node name="1.0.0.4"> <!-- a4 -->
+                <neighbour name="33.33.33.2" />
+                <neighbour name="192.168.3.-1" />
+            </node>
+            <node functional_type="WEBCLIENT" name="192.168.3.-1"> <!-- endpoint network -->
+                <neighbour name="1.0.0.4" />
+                <configuration description="e4" name="officeA">
+                    <webclient nameWebServer="130.10.0.1" />
+                </configuration>
+            </node>
+        </graph>
+    </graphs>
+    <Constraints>
+        <NodeConstraints/>
+        <LinkConstraints />
+    </Constraints>
+    <PropertyDefinition>
+        <!-- policy 1 -->
+        <Property graph="0" name="ReachabilityProperty" src="192.168.3.-1" dst="130.10.0.1" lv4proto="TCP" />
+        <Property graph="0" name="ReachabilityProperty" src="192.168.3.-1" dst="130.10.0.2" lv4proto="TCP" />
+        <Property graph="0" name="ReachabilityProperty" src="192.168.3.-1" dst="130.10.0.3" lv4proto="TCP" />
+        <!-- policy 2 -->
+        <Property graph="0" name="IsolationProperty" src="192.168.3.-1" dst="130.10.0.1" lv4proto="UDP" />
+        <Property graph="0" name="IsolationProperty" src="192.168.3.-1" dst="130.10.0.2" lv4proto="UDP" />
+        <Property graph="0" name="IsolationProperty" src="192.168.3.-1" dst="130.10.0.3" lv4proto="UDP" />
+        <!-- policy 3 -->
+        <Property graph="0" name="IsolationProperty" src="192.168.3.-1" dst="130.10.0.1" lv4proto="OTHER" />
+        <Property graph="0" name="IsolationProperty" src="192.168.3.-1" dst="130.10.0.2" lv4proto="OTHER" />
+        <Property graph="0" name="IsolationProperty" src="192.168.3.-1" dst="130.10.0.3" lv4proto="OTHER" />
+        <!-- policy 4 -->
+        <Property graph="0" name="ReachabilityProperty" src="130.10.0.1" dst="192.168.3.-1" lv4proto="ANY" />
+        <Property graph="0" name="ReachabilityProperty" src="130.10.0.2" dst="192.168.3.-1" lv4proto="ANY" />
+        <Property graph="0" name="ReachabilityProperty" src="130.10.0.3" dst="192.168.3.-1" lv4proto="ANY" />
+    </PropertyDefinition>
+</NFV>

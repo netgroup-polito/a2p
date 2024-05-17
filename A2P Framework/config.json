@@ -1,0 +1,11 @@
+{
+    "firewall-type": "IPTABLES",
+    "logfiles": {
+        "snort3": {
+            "alertfastv0": "alert_fast.txt"
+        },
+        "ossec37local": {
+            "jsonout": "alerts.json"
+        }
+    }
+}
